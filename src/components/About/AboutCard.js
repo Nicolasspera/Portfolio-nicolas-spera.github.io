@@ -8,33 +8,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hola a todos, soy<span className="purple"> Nicolás Spera </span>
+            de <span className="purple"> Buenos Aires, Argentina.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Actualmente, trabajo en Easy, pero estoy enfocado en profesionalizarme y conseguir mi primer empleo como desarrollador web.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            He estudiado desarrollo web a través de Udemy, donde me especialicé en HTML, CSS y JavaScript.
+            También he completado cursos avanzados de React y TypeScript con Fernando Herrera, lo que ha ampliado mis habilidades y conocimientos en estas tecnologías.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Además de mi pasión por la programación, disfruto de otras actividades como:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Jugar videojuegos
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> La mecanica
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Tocar Instrumentos como: Piano y Guitarra
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "El único modo de hacer un gran trabajo es amar lo que haces"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Nicolas</footer>
         </blockquote>
       </Card.Body>
     </Card>
