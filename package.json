@@ -8,6 +8,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
+    "homepage": "https://nicolasspera.github.io/Portfolio.nicolasspera.github.io/",
     "bootstrap": "^5.1.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.1",
@@ -46,4 +47,5 @@
       "last 1 safari version"
     ]
   }
+  
 }
