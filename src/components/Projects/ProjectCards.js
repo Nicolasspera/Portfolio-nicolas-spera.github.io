@@ -44,6 +44,17 @@ function ProjectCards(props) {
             {"Web"}
           </Button>
         )}
+        {!props.isBlog && props.EnProceso && (
+          <Button
+            variant="primary"
+            href={props.EnProceso}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"En Proceso"}
+          </Button>
+        )}
       </Card.Body>
     </Card>
   );
