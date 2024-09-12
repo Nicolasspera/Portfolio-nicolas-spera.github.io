@@ -5,8 +5,8 @@ import Particle from "../Particle";
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
-// import chatify from "../../Assets/Projects/chatify.png";
-// import suicide from "../../Assets/Projects/suicide.png";
+ import WebSorteos from "../../Assets/Projects/WebSorteos.png";
+ import Buenclima from "../../Assets/Projects/Buenclima.png";
 import GifApp from "../../Assets/Projects/GifApp.png";
 import Proyectoclima from "../../Assets/Projects/Proyectoclima.png";
 
@@ -33,6 +33,17 @@ function Projects() {
               Web="https://www.proyectoclima.com"
             />
           </Col>
+          
+           <Col md={4} className="project-card">
+            <ProjectCard
+               imgPath={Buenclima}
+              isBlog={false}
+              title="Buen Clima"
+              description="Este proyecto es una segunda página web realizada para el mismo cliente en el sector de climatización. Mi responsabilidad fue diseñar y desarrollar todo el sitio desde cero, asegurando una experiencia de usuario intuitiva y visualmente atractiva. Utilicé tecnologías web estándar como HTML para la estructura, CSS para el diseño y la animación, y JavaScript para añadir interactividad. El resultado es un sitio funcional que cumple con los objetivos del cliente y destaca por su rendimiento en diferentes dispositivos. Este trabajo fue completado de manera independiente como parte de mis proyectos de freelancing, demostrando mi capacidad para gestionar y entregar proyectos de manera efectiva."
+              ghLink="https://github.com/Nicolasspera/climabuenosiares.github.io"
+              demoLink="https://nicolasspera.github.io/climabuenosiares.github.io/"              
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -45,18 +56,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={WebSorteos}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Web para Sorteos"
+              description="Un proyecto freelance en desarrollo, diseñado para gestionar sorteos online. La plataforma permite a los usuarios participar comprando productos que otorgan chances, utilizando la API de Mercado Pago para procesar pagos de manera segura. Cuenta con una base de datos que almacena las transacciones para garantizar la transparencia en la generación de sorteos. Además, incluye un sistema de login y un panel de administración que permite gestionar publicaciones y realizar sorteos de manera eficiente."
+              EnProceso="https://www.linkedin.com/in/nicolas-spera-163a43195/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -88,7 +97,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col> */}
+          </Col>  */}
         </Row>
       </Container>
     </Container>
